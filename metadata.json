@@ -1,0 +1,5 @@
+{
+  "name": "Targeting Report Generator",
+  "description": "A quick and easy tool for targeted advertising specialists to generate daily performance reports. Input your metrics, and the app calculates key performance indicators (KPIs) and formats a report ready to be copied.",
+  "requestFramePermissions": []
+}
