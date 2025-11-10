@@ -37,11 +37,19 @@ const ReportForm: React.FC<ReportFormProps> = ({ data, onInputChange }) => {
                     description="(початі розмови, нові контакти)"
                 />
                 <Input
-                    label="Переходи (Кліки)"
+                    label="Переходи (Кліки усі)"
                     id="clicks"
                     type="number"
                     placeholder="напр. 14"
                     value={data.clicks}
+                    onChange={onInputChange}
+                />
+                <Input
+                    label="Кліки по посиланню"
+                    id="link_clicks"
+                    type="number"
+                    placeholder="напр. 10"
+                    value={data.link_clicks}
                     onChange={onInputChange}
                 />
                 <Input
